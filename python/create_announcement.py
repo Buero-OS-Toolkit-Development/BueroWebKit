@@ -6,7 +6,7 @@ import pyautogui as py
 SCHABL = """<div class="oval">
                 <font color="{}">
                     <h3>{}</h3>
-                    <p>{}
+                    <p class="announcement">{}
                         {}
                     {}</p>
                 </font>

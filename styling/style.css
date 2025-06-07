@@ -171,3 +171,8 @@ button.buttonSwitchMP {
     button.buttonSwitchMP:hover {
         background: radial-gradient(#e5e5e5, #e33);
     }
+
+p.announcement {
+    margin-left: 10px;
+    margin-right: 10px;
+}
