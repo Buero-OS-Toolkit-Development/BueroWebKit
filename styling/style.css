@@ -114,8 +114,16 @@ h2 {
     margin-right: auto;
     width: 50%;
     display: block;
-    border-radius: 4px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #bbb;
+    transition-duration: 0.7s;
+    transition-delay: 0.1s;
 }
+
+    .photoElement:hover {
+        box-shadow: 0 6px 16px #bbb;
+        width: 52%;
+    }
 
 details {
     text-align: center;
