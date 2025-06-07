@@ -156,21 +156,25 @@ button.commentTimeButton {
 button.buttonSwitchMP {
     background-color: transparent;
     outline: none;
-    transition-duration: 0.5s;
-    border: black dashed 0.5px;
+    transition: background 0.5s, box-shadow 0.4s, transform 0.2s;
+    border: 1px dashed #353535;
     border-radius: 8px;
     height: 42px;
     font-family: Verdana, sans-serif;
     position: absolute;
     margin-top: 3px;
-    transition-delay: 0.2s;
-    -moz-transition-duration: 0.5s;
-    -webkit-transition: 0.5s;
+    padding: 0 18px;
+    color: #353535;
+    box-shadow: 0 1px 2px #bbb;
 }
 
     button.buttonSwitchMP:hover {
-        background: radial-gradient(#e5e5e5, #e33);
+        background: radial-gradient(circle, #fff 60%, #c8323c 100%);
+        box-shadow: 0 0 12px 2px #c8323c55, 0 1px 2px #bbb;
+        color: #c8323c;
+        transform: scale(1.04);
     }
+
 
 p.announcement {
     margin-left: 10px;
