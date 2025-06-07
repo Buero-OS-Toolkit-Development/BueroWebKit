@@ -5,7 +5,7 @@
 .oval {
     width: 70%;
     display: block;
-    background: radial-gradient(#ffe, ghostwhite);
+    background: radial-gradient(ghostwhite, #ffd);
     border-radius: 40px;
     align-content: center;
     text-align: center;
@@ -25,7 +25,7 @@
         margin-left: 14.5%;
         margin-right: 14.5%;
         box-shadow: 0 2px 12px #bbb;
-        background: radial-gradient(#fed, ghostwhite)
+        background: radial-gradient(ghostwhite, #fed)
     }
 
 .commentOval {

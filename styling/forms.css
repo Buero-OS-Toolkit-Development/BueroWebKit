@@ -60,6 +60,7 @@ textarea {
     height: 70px;
     text-align: center;
     font-family: Verdana, sans-serif;
+    box-shadow: 0 2px 8px #bbb;
 }
 
     textarea:focus {
@@ -67,6 +68,7 @@ textarea {
         margin-left: 5px;
         margin-right: 5px;
         width: 85%;
+        box-shadow: 0 4px 16px #bbb;
     }
 
 textarea::placeholder {

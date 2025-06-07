@@ -8,6 +8,7 @@ button.likeButton {
     background-color: Transparent;
     background-repeat: no-repeat;
     border: none;
+    border-radius: 4px;
     margin-bottom: 10px;
     cursor: grab;
 }

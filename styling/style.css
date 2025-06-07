@@ -144,6 +144,7 @@ button.commentTimeButton {
     font-size: medium;
     margin: 0px;
     transition-duration: 0.3s;
+    border-radius: 4px;
 }
 
     button.commentTimeButton:hover {
@@ -162,10 +163,11 @@ button.buttonSwitchMP {
     font-family: Verdana, sans-serif;
     position: absolute;
     margin-top: 3px;
+    transition-delay: 0.2s;
     -moz-transition-duration: 0.5s;
     -webkit-transition: 0.5s;
 }
 
     button.buttonSwitchMP:hover {
-        background: radial-gradient(red, #e5e5e5);
+        background: radial-gradient(#e5e5e5, #e33);
     }
