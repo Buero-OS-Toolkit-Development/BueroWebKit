@@ -11,14 +11,16 @@ button.likeButton {
     border-radius: 4px;
     margin-bottom: 10px;
     cursor: grab;
-    box-shadow: 0 0px 1px #bbb;
+    box-shadow: 0 1px 2px #bbb;
     transition-delay: 0.1s;
     transition-duration: 0.3s;
+    transition: box-shadow 0.3s, background 0.3s;
 }
 
     button.likeButton:hover {
-        box-shadow: 0 1px 2px #bbb;
-        background: radial-gradient(#c8323c, Transparent);
+        box-shadow: 0 2px 8px 0 #c8323c66, 0 1px 2px #bbb;
+        background: radial-gradient(#c8323c 40%, transparent 80%);
+        transition: box-shadow 0.3s, background 0.3s;
     }
 
 .commentText {

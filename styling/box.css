@@ -17,14 +17,14 @@
     transition-duration: 1s;
     transition-delay: 0.4s;
     border-width: 10px;
-    box-shadow: 0 1px 4px #bbb;
+    box-shadow: 0 4px 12px #bbb;
 }
 
     .oval:hover {
         width: 71%;
         margin-left: 14.5%;
         margin-right: 14.5%;
-        box-shadow: 0 2px 12px #bbb;
+        box-shadow: 1px 6px 28px #bbb;
         background: radial-gradient(ghostwhite, #fed)
     }
 
