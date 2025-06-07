@@ -3,17 +3,21 @@
     Büro ist ein Projekt von Leander Kafemann.
     Diese Seite wurde ebenfalls von Leander Kafemann entworfen.
 */
+
 html {
     background-color: powderblue;
     font-family: Verdana, sans-serif;
 }
-h1, h2, h3, h4 {
+
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
+
 body {
     margin: 0;
     padding: 0;
 }
+
 .footer {
     height: 16px;
     bottom: 0px;
@@ -21,15 +25,19 @@ body {
     position: -webkit-sticky;
     background-color: #e5e5e5;
 }
-.footer:hover {
-    height: 27px;
-}
+
+    .footer:hover {
+        height: 27px;
+    }
+
 .footerText {
     font-size: 12px;
 }
-.footerText:hover {
-    font-size: 18px;
-}
+
+    .footerText:hover {
+        font-size: 18px;
+    }
+
 .navbar {
     background-color: #e5e5e5;
     height: 50px;
@@ -37,30 +45,37 @@ body {
     position: -webkit-sticky;
     top: 0px;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 nav {
     float: right;
 }
+
 li {
     display: inline;
     margin: 15px;
 }
+
 nav a {
     text-decoration: none;
     color: #353535;
     display: inline-block;
     padding-top: 15px;
 }
-nav a:hover {
-    color: #00b2b2;
-}
-nav a:active {
-    font-weight: bold;
-}
+
+    nav a:hover {
+        color: #00b2b2;
+    }
+
+    nav a:active {
+        font-weight: bold;
+    }
+
 @media screen and (max-width: 700px) {
     nav {
         width: 100%;
@@ -72,56 +87,71 @@ nav a:active {
         text-align: center;
     }
 }
+
 p {
     text-align: center;
 }
+
 a {
     color: darkgray;
     text-decoration: none;
 }
-a:hover {
-    color: lightgoldenrodyellow;
-}
-a:active {
-    font-weight: bold;
-}
+
+    a:hover {
+        color: lightgoldenrodyellow;
+    }
+
+    a:active {
+        font-weight: bold;
+    }
+
 h2 {
     font-size: 32px;
 }
+
 .photoElement {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     display: block;
+    border-radius: 4px;
 }
+
 details {
     text-align: center;
 }
+
 summary {
     text-align: center;
 }
+
 div.vHover {
     filter: blur(6px);
     display: inline;
     background-color: gainsboro;
     transition-duration: 1s;
 }
-div.vHover:hover {
-    filter: none;
-    background-color: inherit;
-}
+
+    div.vHover:hover {
+        filter: none;
+        background-color: inherit;
+    }
+
 button.commentTimeButton {
     background-color: transparent;
     outline: none;
     border: none;
     font-size: medium;
     margin: 0px;
+    transition-duration: 0.3s;
 }
-button.commentTimeButton:hover {
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: large;
-}
+
+    button.commentTimeButton:hover {
+        margin-left: 10px;
+        margin-right: 10px;
+        box-shadow: 0 1px 2px #bbb;
+    }
+
 button.buttonSwitchMP {
     background-color: transparent;
     outline: none;
@@ -132,8 +162,10 @@ button.buttonSwitchMP {
     font-family: Verdana, sans-serif;
     position: absolute;
     margin-top: 3px;
+    -moz-transition-duration: 0.5s;
     -webkit-transition: 0.5s;
 }
-button.buttonSwitchMP:hover {
-    background: radial-gradient(red, #e5e5e5);
-}
+
+    button.buttonSwitchMP:hover {
+        background: radial-gradient(red, #e5e5e5);
+    }

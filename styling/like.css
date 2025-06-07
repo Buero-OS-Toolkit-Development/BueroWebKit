@@ -11,6 +11,11 @@ button.likeButton {
     margin-bottom: 10px;
     cursor: grab;
 }
+
+    button.likeButton:hover {
+        box-shadow: 0 1px 2px red;
+    }
+
 .commentText {
     display: block;
     text-align: left;

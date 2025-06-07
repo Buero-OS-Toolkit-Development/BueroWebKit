@@ -3,30 +3,35 @@
     It was created by Leander Kafemann
 */
 .oval {
-    width: 60%;
+    width: 70%;
     display: block;
-    background: radial-gradient(silver, gold);
+    background: radial-gradient(#ffe, ghostwhite);
     border-radius: 40px;
     align-content: center;
     text-align: center;
     align-self: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 10px;
     margin-bottom: 10px;
     transition-duration: 1s;
-    transition-delay: 0.5s;
+    transition-delay: 0.4s;
     border-width: 10px;
+    box-shadow: 0 1px 4px #bbb;
 }
-.oval:hover {
-    width: 62%;
-    margin-left: 19%;
-    margin-right: 19%;
-}
+
+    .oval:hover {
+        width: 71%;
+        margin-left: 14.5%;
+        margin-right: 14.5%;
+        box-shadow: 0 2px 12px #bbb;
+        background: radial-gradient(#fed, ghostwhite)
+    }
+
 .commentOval {
     width: 90%;
     display: block;
-    background-color: ghostwhite;
+    background-color: lightgrey;
     border-radius: 10px;
     align-content: center;
     text-align: center;
@@ -37,4 +42,15 @@
     margin-bottom: 10px;
     border-width: 10px;
     float: right;
+    box-shadow: 0 1px 2px #bbb;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
 }
+
+    .commentOval:hover {
+        box-shadow: 0 2px 4px #bbb;
+        background-color: silver;
+        width: 91%;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+    }
