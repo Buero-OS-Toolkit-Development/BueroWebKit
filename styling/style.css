@@ -180,7 +180,7 @@ button.buttonSwitchMP {
         background: radial-gradient(circle, #fff 60%, #c8323c 100%);
         box-shadow: 0 0 12px 2px #c8323c55, 0 1px 2px #bbb;
         color: #c8323c;
-        transform: scale(1.04);
+        transform: scale(1.02);
     }
 
 
