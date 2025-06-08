@@ -71,6 +71,7 @@ nav a {
 
     nav a:hover {
         color: #00b2b2;
+        transform: scale(1.02);
     }
 
     nav a:active {
@@ -184,6 +185,11 @@ button.buttonSwitchMP {
         transform: scale(1.02);
     }
 
+img.navBarImage {
+    box-shadow: 0 2px 4px #bbb;
+    border-radius: 8px;
+    margin-left: 3px;
+}
 
 p.announcement {
     margin-left: 10px;
