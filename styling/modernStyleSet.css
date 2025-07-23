@@ -29,19 +29,16 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 6px;
+    box-shadow: 0 2px 4px #bbb;
 }
 
     .footer:hover {
-        height: 27px;
+        box-shadow: 0 2px 8px #bbb;
     }
 
 .footerText {
     font-size: 12px;
 }
-
-    .footerText:hover {
-        font-size: 18px;
-    }
 
 .navbar {
     background-color: ghostwhite;
