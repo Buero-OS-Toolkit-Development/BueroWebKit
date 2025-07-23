@@ -24,7 +24,11 @@ body {
     bottom: 0px;
     position: sticky;
     position: -webkit-sticky;
-    background-color: #e5e5e5;
+    background-color: ghostwhite;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
 }
 
     .footer:hover {
@@ -50,6 +54,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 8px;
+    outline: 2px solid black;
 }
 
 nav ul {
