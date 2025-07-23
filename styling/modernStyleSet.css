@@ -97,10 +97,6 @@ nav a {
         }
 }
 
-p {
-    text-align: center;
-}
-
 a {
     color: darkgray;
     text-decoration: none;
@@ -201,4 +197,5 @@ img.navBarImage {
 p.announcement {
     margin-left: 10px;
     margin-right: 10px;
+    color: inherit;
 }
