@@ -27,11 +27,11 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 6px;
-    box-shadow: 0 2px 4px #bbb;
+    box-shadow: 4px 2px 4px #bbb;
 }
 
     .footer:hover {
-        box-shadow: 0 2px 8px #bbb;
+        box-shadow: 4px 2px 8px #bbb;
     }
 
 .footerText {
