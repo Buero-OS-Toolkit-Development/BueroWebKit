@@ -4,7 +4,7 @@ import pyperclip
 import pyautogui as py
 
 SCHABL = """<div class="oval">
-                <font color="{}">
+                <font style="color: {} !important">
                     <h3>{}</h3>
                     <p class="announcement">{}
                         {}
@@ -83,7 +83,7 @@ c.underline = False
 c.stroke = False
 
 c.create_text(325, 60, text="    Büro Guide  \nContent Creator", font=("Verdana", "30", "bold"))
-c.create_text(325, 840, text="Copyright Leander Kafemann 2024-2025  -  Version 4.0.0", font=("Verdana", "10"))
+c.create_text(325, 840, text="Copyright Leander Kafemann 2024-2025  -  Version 4.0.2", font=("Verdana", "10"))
 
 c.create_text(20, 200, text="Titel:", font=("Verdana", "20"), anchor="w")
 c.create_text(325, 270, text="Inhalt:", font=("Verdana", "25"))
