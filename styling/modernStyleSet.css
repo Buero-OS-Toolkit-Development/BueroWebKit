@@ -20,7 +20,7 @@ body {
 .footer {
     height: 16px;
     bottom: 0px;
-    position: absolute;
+    position: fixed;
     background-color: ghostwhite;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -43,7 +43,7 @@ body {
 .navbar {
     background-color: ghostwhite;
     height: 50px;
-    position: absolute;
+    position: fixed;
     top: 0px;
     box-shadow: 0 2px 4px #bbb;
     margin-top: 10px;
