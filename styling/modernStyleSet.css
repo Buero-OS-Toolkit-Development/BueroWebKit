@@ -28,6 +28,7 @@ body {
     border-radius: 6px;
     box-shadow: 0 2px 4px #bbb;
     outline: 2px solid black;
+    width: calc(100% - 20px);
 }
 
     .footer:hover {
@@ -50,6 +51,7 @@ body {
     margin-right: 10px;
     border-radius: 8px;
     outline: 2px solid black;
+    width: calc(100% - 20px);
 }
     
     .navbar:hover {
