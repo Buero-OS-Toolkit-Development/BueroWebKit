@@ -31,10 +31,12 @@ body {
     width: calc(100% - 20px);
     backdrop-filter: blur(5px);
     z-index: 10;
+    transition-duration: 0.3s;
 }
 
     .footer:hover {
         box-shadow: 0 2px 8px #bbb;
+        background-color: rgba(248, 248, 255, 0.8);
     }
 
 .footerText {
@@ -57,10 +59,12 @@ body {
     outline: 2px solid black;
     width: calc(100% - 20px);
     z-index: 10;
+    transition-duration: 0.3s;
 }
-    
+
     .navbar:hover {
         box-shadow: 0 2px 8px #bbb;
+        background-color: rgba(248, 248, 255, 0.8);
     }
 
 nav ul {
