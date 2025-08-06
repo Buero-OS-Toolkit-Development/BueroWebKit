@@ -30,6 +30,7 @@ body {
     outline: 2px solid black;
     width: calc(100% - 20px);
     backdrop-filter: blur(5px);
+    z-index: 10;
 }
 
     .footer:hover {
@@ -55,6 +56,7 @@ body {
     border-radius: 8px;
     outline: 2px solid black;
     width: calc(100% - 20px);
+    z-index: 10;
 }
     
     .navbar:hover {
@@ -209,6 +211,8 @@ p.announcement {
 }
 
 .fly-in-text {
+    position: relative;
+    z-index: 1;
     opacity: 0;
     transform: translateY(40px) scale(0.96);
     filter: blur(6px);
