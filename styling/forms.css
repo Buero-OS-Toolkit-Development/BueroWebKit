@@ -4,7 +4,7 @@ input[type=text], input[type=password] {
     border: 2px solid rgba(255,255,255,0.12);
     background: rgba(255,255,255,0.03);
     color: ghostwhite;
-    transition: border 0.25s, box-shadow 0.25s, width 0.25s;
+    transition: border 0.25s, box-shadow 0.25s;
     box-sizing: border-box;
     outline: none;
     border-radius: 8px;
@@ -16,13 +16,14 @@ input[type=text], input[type=password] {
     height: 34px;
     text-align: center;
     font-family: Verdana, sans-serif;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    /* sichtbarer Schatten auf dunklem Hintergrund: dunkler Schatten + subtiler heller Schein */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.75), 0 0 8px rgba(176,224,255,0.03);
 }
 
     input[type=text]:focus, input[type=password]:focus {
         border: 2px solid ghostwhite;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.6);
-        width: 85%;
+        box-shadow: 0 8px 22px rgba(0,0,0,0.8), 0 0 12px rgba(176,224,255,0.05);
+        /* keine horizontale Breitenänderung mehr, um Layout-Verschiebungen zu vermeiden */
     }
 
 input::placeholder {
@@ -41,41 +42,46 @@ input::placeholder {
     height: 36px;
     transition: width 0.25s, box-shadow 0.25s, background 0.25s;
     font-family: Verdana, sans-serif;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.75), 0 0 10px rgba(176,224,255,0.04);
 }
 
     .login_button:hover {
         width: 200px;
         border: 1px solid ghostwhite;
         background-color: rgba(255,255,255,0.12);
-        box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+        box-shadow: 0 12px 36px rgba(0,0,0,0.8), 0 0 18px rgba(176,224,255,0.06);
     }
 
+/* Textarea: zentriert, vertikal skalierbar, keine Breitenänderung beim Fokus */
 textarea {
     border: 2px solid rgba(255,255,255,0.12);
     background: rgba(255,255,255,0.03);
     color: ghostwhite;
-    transition: border 0.25s, box-shadow 0.25s, width 0.25s;
+    transition: border 0.25s, box-shadow 0.25s;
     box-sizing: border-box;
     outline: none;
     border-radius: 14px;
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 4px;
     margin-bottom: 3px;
-    height: 90px;
+    min-height: 90px;
+    max-width: 95%;
     text-align: left;
     font-family: Verdana, sans-serif;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    /* sichtbarer Schatten-Kombi */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.8), 0 0 10px rgba(176,224,255,0.03);
     padding: 10px;
     color: ghostwhite;
+    /* erlaubt nur vertikale Größenänderung durch den Nutzer */
+    resize: vertical;
 }
 
     textarea:focus {
         border: 2px solid ghostwhite;
-        width: 85%;
-        box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+        /* keine Breitenänderung mehr */
+        box-shadow: 0 10px 30px rgba(0,0,0,0.85), 0 0 16px rgba(176,224,255,0.05);
     }
 
     textarea::placeholder {
