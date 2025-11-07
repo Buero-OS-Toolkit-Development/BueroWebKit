@@ -35,7 +35,7 @@ def export():
         styling1 += "<s>"
         styling2 = "</s>"+styling2
     d = datetime.today()
-    to_export = SCHABL.format(c.color, c.color, title, str(d.day)+"."str(d.month)+"."str(d.year), styling1, content, styling2, id_, id_, id_, id_, id_, id_)
+    to_export = SCHABL.format(c.color, c.color, title, str(d.day)+"."+str(d.month)+"."+str(d.year), styling1, content, styling2, id_, id_, id_, id_, id_, id_)
     pyperclip.copy(to_export)
     py.alert((to_export if len(to_export) < 4000 else "Content too long")+"\n\nin die Zwischenablage kopiert.", "Kopiert")
 
