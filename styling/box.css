@@ -1,12 +1,11 @@
 /*
-    This is an extra stylesheet for boxes used in index.
-    It was created by Leander Kafemann
+    Box-Styles vereinheitlicht mit modernStyleSet.css (glasige Boxen)
 */
 .oval {
     width: 70%;
     display: block;
-    background: radial-gradient(ghostwhite, #fff);
-    border-radius: 40px;
+    background: linear-gradient(rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+    border-radius: 24px;
     align-content: center;
     text-align: center;
     align-self: center;
@@ -14,42 +13,47 @@
     margin-right: 15%;
     margin-top: 10px;
     margin-bottom: 15px;
-    transition-duration: 1s;
-    transition-delay: 0.4s;
-    border-width: 10px;
-    box-shadow: 0 4px 12px #bbb;
+    transition-duration: 0.6s;
+    transition-delay: 0.15s;
+    border: 1px solid rgba(255,255,255,0.06);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+    color: ghostwhite;
+    padding: 18px;
 }
 
     .oval:hover {
         width: 71%;
         margin-left: 14.5%;
         margin-right: 14.5%;
-        box-shadow: 1px 6px 28px #bbb;
-        background: radial-gradient(ghostwhite, #ffd)
+        box-shadow: 0 10px 36px rgba(0,0,0,0.7);
+        background: linear-gradient(rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+        transform: translateY(-4px);
     }
 
 .commentOval {
     width: 90%;
     display: block;
-    background-color: lightgrey;
-    border-radius: 10px;
+    background-color: rgba(200,200,200,0.06);
+    border-radius: 12px;
     align-content: center;
-    text-align: center;
+    text-align: left;
     align-self: center;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 2px;
+    margin-top: 8px;
     margin-bottom: 10px;
-    border-width: 10px;
+    border: 1px solid rgba(255,255,255,0.04);
     float: right;
-    box-shadow: 0 1px 2px #bbb;
-    transition-delay: 0.2s;
-    transition-duration: 0.5s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    transition-delay: 0.12s;
+    transition-duration: 0.35s;
+    color: ghostwhite;
+    padding: 12px;
 }
 
     .commentOval:hover {
-        box-shadow: 0 2px 4px #bbb;
-        background-color: silver;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.65);
+        background-color: rgba(255,255,255,0.03);
         width: 91%;
         margin-left: 4.5%;
         margin-right: 4.5%;

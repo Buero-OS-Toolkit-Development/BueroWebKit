@@ -1,3 +1,5 @@
+/* Vereint mit modernStyleSet.css - Like-Elemente im modernen Stil */
+
 div.like {
     color: darkgrey;
     font-size: large;
@@ -5,22 +7,22 @@ div.like {
 }
 
 button.likeButton {
-    background-color: Transparent;
+    background-color: transparent;
     background-repeat: no-repeat;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     margin-bottom: 10px;
-    cursor: grab;
-    box-shadow: 0 1px 2px #bbb;
-    transition-delay: 0.1s;
-    transition-duration: 0.3s;
-    transition: box-shadow 0.3s, background 0.3s;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    transition: box-shadow 0.3s, background 0.3s, transform 0.12s;
+    padding: 6px 8px;
+    color: ghostwhite;
 }
 
     button.likeButton:hover {
-        box-shadow: 0 2px 8px 0 #c8323c66, 0 1px 2px #bbb;
-        background: radial-gradient(#c8323c 40%, transparent 80%);
-        transition: box-shadow 0.3s, background 0.3s;
+        box-shadow: 0 2px 8px 0 #c8323c66, 0 1px 2px rgba(0,0,0,0.6);
+        background: radial-gradient(circle, rgba(200,50,60,0.28) 40%, transparent 80%);
+        transform: translateY(-1px);
     }
 
 .commentText {
@@ -28,4 +30,5 @@ button.likeButton {
     text-align: left;
     margin-left: 6%;
     font-size: small;
+    color: ghostwhite;
 }
